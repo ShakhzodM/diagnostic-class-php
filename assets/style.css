@@ -1,0 +1,88 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+input[type="submit"],textarea{
+	padding:5px 10px;
+	background: white;
+	box-shadow: 0px 0px 1px black;
+	cursor: pointer;
+	border-radius: 5px;
+	width:10%
+}
+input[type="submit"]{
+	margin-top: 5px;
+	font-size:17px;
+	margin-left: 2%;
+}
+input[type="submit"]:hover{
+	color:blue;
+}
+
+.wrapper{
+	width:75%;
+	
+	margin:0 auto;
+}
+
+header{
+	height:40px;
+	
+}
+
+	header p{
+		margin-left: 4%;
+		font-size:34px;
+	}
+main{
+	height:400px;
+	padding:10px;
+}
+
+		main input[name="sick"]{
+			margin-bottom: 7px;
+			margin-top:5px;
+		}
+		main input[name="again"]{
+			width:35%;
+		}
+		main a{
+			font-size:17px;
+			color:blue;
+			text-decoration: none;
+			margin-top:10px;
+			display: block;
+		}
+
+		main a:hover{
+			text-decoration: underline;
+		}
+		main label{
+			cursor: pointer;
+		}
+
+		.diag{
+			margin-top:5px;
+			font-size:18px;
+		}
+	select{
+		margin-bottom: 15px;
+		margin-top: 5px;
+		padding: 5px 10px;
+		font-size:13px;
+		cursor: pointer;
+	}
+
+footer{
+	height:80px;
+	
+}
+
+
+
+.graph{
+
+}
