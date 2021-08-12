@@ -1,5 +1,5 @@
 <?php
-	require_once 'class/Diagnostic.php';
+	require_once 'Inc/Diagnostic.php';
 	use Inc\Diagnostic;
 	$columns = [
 				'Темапература'=>'temperature', 
